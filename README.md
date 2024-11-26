@@ -1,9 +1,13 @@
 # lbyarch_program
 
 Command Prompt Execution:
+
   nasm -f win64 saxpy_test_asm.asm
+  
   gcc -c saxpy_test_c.c -o saxpy_test_c.obj -m64
+  
   gcc saxpy_test_c.obj saxpy_test_asm.obj -o saxpy_test_c.exe -m64
+  
   saxpy_test_c.exe
 
 ![image](https://github.com/user-attachments/assets/c13806dd-e273-4a1b-b545-8120035e4b8c)
