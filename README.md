@@ -22,6 +22,8 @@
 
 Testing between the C kernel and x86-64 assembly using large vector sizes reveals significant differences in execution time, with C generally being slower due to its higher-level abstraction. The C kernel simplifies development by automatically handling memory management, function calls, and other complex operations, making it portable across different platforms. However, this ease of use comes at the cost of performance, as the compiler must translate C code into machine instructions, which introduces additional overhead. In contrast, x86-64 assembly allows for direct control over the hardware, enabling precise optimization at the instruction level. This results in faster execution, as developers can take full advantage of the processor’s capabilities, such as SIMD instructions and efficient register usage. While x86-64 assembly requires more complex coding and lacks portability, its ability to improve performance makes it significantly faster than the C kernel, especially in performance-critical applications where execution time is important.
 
+**Manual Input:**
+
 ![image](https://github.com/user-attachments/assets/c13806dd-e273-4a1b-b545-8120035e4b8c)
 
 
